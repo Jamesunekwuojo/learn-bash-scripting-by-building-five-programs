@@ -125,3 +125,5 @@ help
 man echo
 man if
 help if
+./countdown arg1
+./countdown.sh arg1
