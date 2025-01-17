@@ -127,3 +127,5 @@ man if
 help if
 ./countdown arg1
 ./countdown.sh arg1
+./countdown arg2
+./countdown.sh arg2
