@@ -7,6 +7,12 @@ then
 
   echo -e "\n~~ Countdown Timer ~~\n"
   I=$1
+
+  while [[ $I -ge 0 ]]
+  do
+    echo $I
+  done
+    
  : '
   for (( i = $1; i >= 0; i-- ))
   do
