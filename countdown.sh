@@ -6,6 +6,7 @@ if [[ $1 -gt 0 ]]
 then
 
   echo -e "\n~~ Countdown Timer ~~\n"
+  I=$1
  : '
   for (( i = $1; i >= 0; i-- ))
   do
