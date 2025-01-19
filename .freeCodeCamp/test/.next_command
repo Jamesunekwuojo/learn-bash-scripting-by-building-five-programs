@@ -355,3 +355,4 @@ echo $I
 (( I++1 ))
 (( I++ ))
 echo $I
+help let
