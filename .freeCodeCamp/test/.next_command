@@ -235,3 +235,4 @@ help
 ./countdown.sh 18
 ./countdown.sh 10
 help
+ls --color=auto /
