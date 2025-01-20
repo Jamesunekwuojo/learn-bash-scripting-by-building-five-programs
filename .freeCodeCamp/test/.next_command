@@ -428,3 +428,4 @@ help until
 help [[
 ./fortune.sh test?
 help [[ expression ]]
+[[ hello == hello ]]
