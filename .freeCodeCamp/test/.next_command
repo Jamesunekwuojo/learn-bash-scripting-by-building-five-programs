@@ -400,3 +400,4 @@ J=$(( I - 6 ))
 echo $J
 declare -p
 declare -p J
+declare -p RANDOM
