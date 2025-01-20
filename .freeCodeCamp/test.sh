@@ -8,6 +8,14 @@ RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again late
 
 echo ${RESPONSES[5]}
 
-N=$(( $RANDOM %1 ))
+N=$(( $RANDOM % 6 ))
 
 echo ${RESPONSES[$N]}
+
+GET_FORTUNE() {
+
+  echo Ask a yes or no question:
+
+}
+
+GET_FORTUNE
