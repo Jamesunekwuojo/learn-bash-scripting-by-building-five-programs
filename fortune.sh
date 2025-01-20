@@ -13,7 +13,11 @@ N=$(( $RANDOM % 6 ))
 
 echo ${RESPONSES[$N]}
 
-GET_FORTUNE() {
+function GET_FORTUNE() {
+  if [[ ! $1 ]]
+  then
+    echo Ask a yes or no question:
+  fi
 
   echo Ask a yes or no question:
   read QUESTION
