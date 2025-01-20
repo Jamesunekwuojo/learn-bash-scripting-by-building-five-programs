@@ -399,3 +399,4 @@ echo $J
 J=$(( I - 6 ))
 echo $J
 declare -p
+declare -p J
