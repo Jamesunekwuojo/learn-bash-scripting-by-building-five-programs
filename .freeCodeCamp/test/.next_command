@@ -447,3 +447,4 @@ __vsc_prompt_cmd_original
 [[ test? =~ \?$ ]]
 ./fortune.sh
 ./fortune.sh
+./fortune.sh

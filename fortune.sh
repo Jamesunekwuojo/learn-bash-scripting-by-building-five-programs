@@ -20,7 +20,6 @@ function GET_FORTUNE() {
     echo Ask a yes or no question:
 
   else
-
     echo Try again. Make sure it ends with a question mark:
   fi
 
@@ -28,6 +27,7 @@ function GET_FORTUNE() {
 
 }
 
+GET_FORTUNE
 
 
 until [[ $QUESTION =~ \?$ ]]
