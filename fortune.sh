@@ -17,9 +17,11 @@ function GET_FORTUNE() {
   if [[ ! $1 ]]
   then
     echo Ask a yes or no question:
+
+  else:
+    echo Try again. Make sure it ends with a question mark:
   fi
 
-  echo Ask a yes or no question:
   read QUESTION
 
 }
