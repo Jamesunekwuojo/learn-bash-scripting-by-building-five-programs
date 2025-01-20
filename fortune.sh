@@ -11,3 +11,7 @@ echo ${RESPONSES[5]}
 N=$(( $RANDOM % 6 ))
 
 echo ${RESPONSES[$N]}
+
+GET_FORTUNE() {
+
+}
