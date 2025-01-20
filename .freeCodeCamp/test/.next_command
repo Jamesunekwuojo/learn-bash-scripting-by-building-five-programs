@@ -401,3 +401,6 @@ echo $J
 declare -p
 declare -p J
 declare -p RANDOM
+echo $NUMBER
+echo $(( RANDOM % 73 ))
+echo $(( RANDOM % 75 ))
