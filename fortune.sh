@@ -11,7 +11,6 @@ echo ${RESPONSES[5]}
 N=$(( $RANDOM % 6 ))
 
 
-echo ${RESPONSES[$N]}
 
 function GET_FORTUNE() {
 
@@ -36,3 +35,4 @@ do
 done
 
 
+echo -e "\n${RESPONSES[$N]}"
