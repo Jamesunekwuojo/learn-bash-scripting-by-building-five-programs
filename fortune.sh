@@ -17,5 +17,6 @@ GET_FORTUNE() {
   echo Ask a yes or no question:
 
 }
-GET_FORTUNE
+GET_FORTUNE()
+
 echo ${RESPONSES[$N]}
